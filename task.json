@@ -1,5 +1,7 @@
 {
-"name":"Sample",
-"task":[{"config":"0 0 * * * https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-task.js, img-url=https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/quantumult-x.png, tag=Sample, enabled=true",
-"addons":"https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-import-rewrite.txt"}],
-"description":"This is a sample."}
+"name": "自用",
+    "description": "https://github.com/ylj1314/Quan",
+    "task": [
+        "5 0 * * * https://raw.githubusercontent.com/ylj1314/Quan/master/appmonitor.js, tag=app版本检测, img-url=https://raw.githubusercontent.com/Orz-3/task/master/appstore.png, enabled=true",
+        ]
+}
