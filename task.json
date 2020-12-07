@@ -1,8 +1,1 @@
-{
-    “name”: “自用订阅”,
-    “description”: “自用订阅”,
-    “task”: [
-        “5 6 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js ,tag=微博通知,img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/geekhub.png,enabled=true”
-        ]
-    
-}
+{"name":"Sample","task":[{"config":"0 0 * * * https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-task.js, img-url=https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/quantumult-x.png, tag=Sample, enabled=true","addons":"https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-import-rewrite.txt"}],"description":"This is a sample."}
