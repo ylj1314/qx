@@ -15,5 +15,6 @@
         "0 9 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/mydigit.js, tag=数码之家, img-url=https://raw.githubusercontent.com/Orz-3/task/master/mydigit.png, enabled=true",
         "0 10 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/trainquery.js, tag=火车票及列车时刻, img-url=https://raw.githubusercontent.com/Orz-3/task/master/12306.png, enabled=true",
         "0 9 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js, tag=京喜, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jingxi.png, enabled=true",
+        "04 00 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/NOWLIVE.js, enabled=true, tag=NOWLIVE,img-url=https://gitee.com/Sunert/ProxyConfig/raw/master/QuantumultX/Rules/Images/ICON/NOWLIVE.png"
     ]
 }
