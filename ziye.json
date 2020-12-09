@@ -4,14 +4,16 @@
   "author": "@ZIYE",
   "icon": "",
   "repo": "https://github.com/ziye12/JavaScript",
-  "apps": [{
+  "apps": [
+  {
     "id": "qqread",
     "name": "企鹅读书",
     "keys": [
 	"qqreadbd1", "qqreadtimeurl1", "qqreadtimehd1", "qqreadbd2", "qqreadtimeurl2", "qqreadtimehd2", "qqreadbd3", "qqreadtimeurl3", "qqreadtimehd3", "qqreadbd4", "qqreadtimeurl4", "qqreadtimehd4", "qqreadbd5", 
 	],
     "author": "@ziye",
-    "settings": [{
+    "settings": [
+    {
         "id": "qeSuffix",
         "name": "当前账号",
         "val": "1",
@@ -26,6 +28,7 @@
         "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
       }
     ],
+    "repo": "https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js",
     "icons": ["https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.jpg", "https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.jpg"],
     "script": "https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js"
   }]
