@@ -3,7 +3,7 @@
     "description": "https://github.com/ylj1314/Quan",
     "task": [
         "5 0 * * * https://raw.githubusercontent.com/ylj1314/Quan/master/appmonitor.js, tag=app版本检测, img-url=https://raw.githubusercontent.com/Orz-3/task/master/appstore.png, enabled=true",
-        "*/11 9-23 * * * https://raw.githubusercontent.com/xingliuchao/jd/main/QQread.js, tag=企鹅读书, img-url=https://raw.githubusercontent.com/Orz-3/task/master/qqread.png, enabled=true",
+        "*/11 9-23 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js, tag=企鹅读书, img-url=https://raw.githubusercontent.com/Orz-3/task/master/qqread.png, enabled=true",
         
         ]
 }
