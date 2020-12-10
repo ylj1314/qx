@@ -15,5 +15,6 @@
         "0 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Domino/Domino_getSMS.js, tag=达美乐, img-url=https://raw.githubusercontent.com/Orz-3/task/master/Domino.png, enabled=true",
         "0 7 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js, tag=电影日历, img-url=https://raw.githubusercontent.com/Orz-3/task/master/MovieCalendar.png, enabled=true",
         "0 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横, img-url=https://raw.githubusercontent.com/Orz-3/task/master/umetrip.png, enabled=true",
+        "0 * * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js, tag=微博通知, img-url=https://raw.githubusercontent.com/Orz-3/task/master/weibo.png, enabled=true",
     ]
 }
