@@ -5,7 +5,7 @@
         "5 0 * * * https://raw.githubusercontent.com/ylj1314/Quan/master/appmonitor.js, tag=app版本检测, img-url=https://raw.githubusercontent.com/Orz-3/task/master/appstore.png, enabled=true",
         "*/11 9-23 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/qqreads.js, tag=企鹅读书, img-url=https://raw.githubusercontent.com/Orz-3/task/master/qqread.png, enabled=true",
          "5 0 * * * https://gitee.com/passerby-b/javascript/raw/master/unipay.js, tag=云闪付签到,img-url=https://raw.githubusercontent.com/Orz-3/task/master/unipay.png, enabled=true",
-         "5 6 * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/ttwkziye.js,tag=天天挖矿,img-url=https://raw.githubusercontent.com/Orz-3/task/master/ttwk.png, enabled=true",
+         "10 1 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/ttwk/ttwk.js, tag=天天挖矿, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/ttwk.png, enabled=true",
         
         ]
 }
