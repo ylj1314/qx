@@ -11,18 +11,9 @@ Github Actions使用方法见[@lxk0301](https://raw.githubusercontent.com/lxk030
 
 const $ = new Env("快手视频")
 
-let ksUrl = [], ksArr = [];
+let ksUrl = [http://tx2.a.yximgs.com/upic/2020/11/25/11/BMjAyMDExMjUxMTQ5MTlfMTgxMjc1NjYyXzM5NzYxNTQxNDc2XzJfMw==_ff_Bf87e89e42e146fb210dc9e3d3a61cdf5.kpg?tag=1-1607846856-h-0-ye5e3uwcog-b1c8e5e05068d3fe&type=hot&di=1bc42da0&bp=10050], ksArr = [];
 
-  if (process.env.KUAISHOUMV && process.env.KUAISHOUMV.indexOf('#') > -1) {
-  ksUrl = process.env.KUAISHOUMV.split('#');
-  console.log(`您选择的是用"#"隔开\n`)
-  }
-  else if (process.env.KUAISHOUMV && process.env.KUAISHOUMV.indexOf('\n') > -1) {
-  ksUrl = process.env.KUAISHOUMV.split('\n');
-  console.log(`您选择的是用换行隔开\n`)
-  } else {
-  ksUrl = process.env.KUAISHOUMV.split()
-  }
+ 
   Object.keys(ksUrl).forEach((item) => {
         if (ksUrl[item]) {
           ksArr.push(ksUrl[item])
