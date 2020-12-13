@@ -17,20 +17,20 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/Sunert/Scripts.git ~/Scripts
+          git clone https://github.com/ylj1315/qx.git ~/
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
       - name: npm install
         run: |
-          cd ~/Scripts
+          cd ~/
           npm install
       - name: '运行 【快手视频】'
         if: env.KUAISHOUMV
         run: |
-          cd ~/Scripts
-          node Task/Auto_Kuaishou.js
+          cd ~/
+          node Auto_Kuaishou.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
