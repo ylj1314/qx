@@ -4,7 +4,7 @@ name: 快手视频
 on:
   workflow_dispatch:
   schedule:
-     - cron: '15 * * * *'
+     - cron: '20 * * * *'
   watch:
     types: started
 jobs:
@@ -30,7 +30,7 @@ jobs:
         if: env.KUAISHOUMV
         run: |
           cd ~/Scripts
-          node Auto_Kuaishou.js
+          node Task/Auto_Kuaishou.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
