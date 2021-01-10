@@ -50,5 +50,6 @@
         
         "44 12 * * 6 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unbind.js, tag=注销京东店铺会员卡, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_unbind.png",
         "30 8 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy.js, tag=crazyJoy任务, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png",
+        "1 8,12,18 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bookshop.js, tag=口袋书店, enabled=true",
     ]
 }
