@@ -15,5 +15,7 @@ npm install
 fi
 ##复制两个文件
 cp -f /i-chenzhe/jd*.js /scripts/
-##使用自定义shell下载并配置执行美妆
-echo "10 8,9,10 * * * node /scripts/jd_entertainment.js |ts >> /scripts/logs/jd_entertainment.log 2>&1" >> /scripts/docker/merged_list_file.sh
+##使用自定义shell下载并配置执行百变大咖秀
+echo "10 10,11 * * 2-5 node /scripts/jd_entertainment.js |ts >> /scripts/logs/jd_entertainment.log 2>&1" >> /scripts/docker/merged_list_file.sh
+#美妆跳一跳
+echo "5 12,18 22-27 2 * node /scripts/jd_jump-jump.js |ts >> /scripts/logs/jd_jump-jump.log 2>&1" >> /scripts/docker/merged_list_file.sh
