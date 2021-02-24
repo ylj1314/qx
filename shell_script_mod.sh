@@ -1,18 +1,6 @@
-!/bin/sh
-#自定义clone一个仓库示例脚本
- function initCustRepo() {
-     git clone https://github.com/i-chenzhe/qx.git /custRepo
- }
-
-  if [ ! -d "/custRepo/" ]; then
-     echo "未检查到custRepo仓库脚本，初始化下载相关脚本"
-     initShylocks
- else
-     echo "更新custRepo脚本相关文件"
-     git -C /custRepo reset --hard
-     git -C /custRepo pull --rebase
- fi
-#自定义增加crontab任务示例
-#临时增加红包雨
-echo "23 19 * * *  node /scripts/jd_fanslove.js >> /scripts/logs/jd_fanslove.log 2>&1" >> /scripts/docker/merged_list_file.sh
+##下面只是做一个示例
+##使用自定义shell下载并配置执行农场		 ##使用自定义shell下载并配置执行农场
+wget -O /scripts/jd_fanslove.js https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js		 # wget -O /scripts/jx_nc.js https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_nc.js
+echo -e >> /scripts/docker/merged_list_file.sh		 # echo -e >> /scripts/docker/merged_list_file.sh
+echo "10 9,18 * * * node /scripts/jd_fanslove.js |ts >> /scripts/logs/jd_fanslove.log 2>&1" >> /scripts/docker/merged_list_file.sh		 # echo "10 9,18 * * * node /scripts/jx_nc.js |ts >> /scripts/logs/jx_nc.log 2>&1" >> /scripts/docker/merged_list_file.sh
  
