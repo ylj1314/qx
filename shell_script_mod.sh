@@ -14,5 +14,5 @@
  fi
 #自定义增加crontab任务示例
 #临时增加红包雨
-echo "13 19 * * *  node /scripts/jd_fanslove.js >> /scripts/logs/jd_fanslove.log 2>&1" >> /scripts/docker/merged_list_file.sh
+echo "23 19 * * *  node /scripts/jd_fanslove.js >> /scripts/logs/jd_fanslove.log 2>&1" >> /scripts/docker/merged_list_file.sh
  
